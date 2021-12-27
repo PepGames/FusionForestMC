@@ -165,6 +165,19 @@
 		#Range: 0 ~ 256
 		pole_length = 16
 
+	[blocks.bubble_block]
+		#Max lifetime of bubble blocks. Set to 10000 to have it infinite
+		#Range: 1 ~ 10000
+		lifetime = 1200
+		#Can bubble break when stepped on?
+		break_when_touched = true
+
+	[blocks.ash]
+		#Burnable blocks will have a chance to create ash layers when burned
+		ash_from_fire = true
+		#Allows rain to wash away ash layers overtime
+		rain_wash_ash = true
+
 #Configure spawning conditions
 [spawns]
 
@@ -404,6 +417,11 @@
 		stasis_deceleration = 0.9625
 		#Allow enderman to intercept any slingshot projectile
 		unrestricted_enderman_intercept = true
+
+	[items.bubble_blower]
+		#Amount of soap consumed per bubble block placed
+		#Range: 1 ~ 25
+		stasis_cost = 5
 
 #General settings
 [general]

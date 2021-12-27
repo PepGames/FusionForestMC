@@ -20,23 +20,6 @@ customization {
 }
 
 customization {
-  identifier = %id=604346%
-  orientation = mid-centered
-  x = -20
-  action = movebutton
-  y = 99
-}
-
-customization {
-  identifier = %id=604346%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = MenuAssets\Pics\squarebuttonhovered.png
-  backgroundnormal = MenuAssets\Pics\squarebuttonidle.png
-}
-
-customization {
   identifier = %id=400322%
   orientation = mid-centered
   x = -68
@@ -58,19 +41,6 @@ customization {
   action = setbuttontexture
   backgroundhovered = MenuAssets\Pics\multplayerbuttonhovered.png
   backgroundnormal = MenuAssets\Pics\multiplayerbuttonidle.png
-}
-
-customization {
-  identifier = %id=604382%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=604382%
-  orientation = mid-centered
-  x = 12
-  action = movebutton
-  y = 84
 }
 
 customization {
@@ -96,30 +66,6 @@ customization {
 }
 
 customization {
-  identifier = %id=400382%
-  orientation = mid-centered
-  x = -8
-  action = movebutton
-  y = -37
-}
-
-customization {
-  identifier = %id=400382%
-  width = 59
-  action = resizebutton
-  height = 20
-}
-
-customization {
-  identifier = %id=400382%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = MenuAssets\Pics\topbuttonhovered.png
-  backgroundnormal = MenuAssets\Pics\topbuttonidle.png
-}
-
-customization {
   identifier = %id=502382%
   orientation = bottom-right
   x = -100
@@ -141,36 +87,6 @@ customization {
   action = setbuttontexture
   backgroundhovered = MenuAssets\Pics\quitgamebuttonhovered.png
   backgroundnormal = MenuAssets\Pics\quitgamebuttonidle.png
-}
-
-customization {
-  identifier = %id=376382%
-  orientation = mid-centered
-  x = -49
-  action = movebutton
-  y = 99
-}
-
-customization {
-  identifier = %id=376382%
-  width = 17
-  action = resizebutton
-  height = 20
-}
-
-customization {
-  identifier = %id=376382%
-  action = setbuttonlabel
-  value = L
-}
-
-customization {
-  identifier = %id=376382%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = MenuAssets\Pics\squarebuttonhovered.png
-  backgroundnormal = MenuAssets\Pics\squarebuttonidle.png
 }
 
 customization {
@@ -204,6 +120,95 @@ customization {
 }
 
 customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=604346%
+  orientation = mid-centered
+  x = -20
+  action = movebutton
+  y = 99
+}
+
+customization {
+  identifier = %id=604346%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = MenuAssets\Pics\squarebuttonhovered.png
+  backgroundnormal = MenuAssets\Pics\squarebuttonidle.png
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=604382%
+  orientation = mid-centered
+  x = 12
+  action = movebutton
+  y = 84
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-centered
+  x = -8
+  action = movebutton
+  y = -37
+}
+
+customization {
+  identifier = %id=400382%
+  width = 59
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = MenuAssets\Pics\topbuttonhovered.png
+  backgroundnormal = MenuAssets\Pics\topbuttonidle.png
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = mid-centered
+  x = -49
+  action = movebutton
+  y = 99
+}
+
+customization {
+  identifier = %id=376382%
+  width = 17
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=376382%
+  action = setbuttonlabel
+  value = L
+}
+
+customization {
+  identifier = %id=376382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = MenuAssets\Pics\squarebuttonhovered.png
+  backgroundnormal = MenuAssets\Pics\squarebuttonidle.png
+}
+
+customization {
   identifier = %id=400346%
   orientation = mid-centered
   x = -69
@@ -231,11 +236,6 @@ customization {
   action = setbuttontexture
   backgroundhovered = MenuAssets\Pics\modlistbuttonhovered.png
   backgroundnormal = MenuAssets\Pics\modlistbuttonidle.png
-}
-
-customization {
-  identifier = %id=502346%
-  action = hidebutton
 }
 
 customization {
@@ -287,6 +287,6 @@ customization {
   y = 76
   scale = 0.5
   alignment = left
-  value = v1.1.4
+  value = v1.1.5
 }
 
