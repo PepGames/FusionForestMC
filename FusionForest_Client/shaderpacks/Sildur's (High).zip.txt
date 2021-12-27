@@ -1,0 +1,2 @@
+#Sun Dec 19 17:58:31 GMT 2021
+minlight=0.015

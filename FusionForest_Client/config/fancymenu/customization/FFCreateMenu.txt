@@ -1,0 +1,21 @@
+type = menu
+
+customization-meta {
+  identifier = com.simibubi.create.foundation.gui.CreateMainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = MenuAssets/Audio/fusionforestbgmlow (2).wav
+  loop = true
+  action = addaudio
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+

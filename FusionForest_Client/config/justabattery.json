@@ -1,0 +1,10 @@
+{
+  "_battery_capacity": "This defines the battery capacity per cell. When combining cells, the values are multiplied. Basically the real capacity is this value times the level.",
+  "battery_capacity": 20000,
+  "_battery_transfer": "This defines the max transfer rate per cell. This can be increased  and with every increase the value is added. Like the battery capacity, but with trace_width as defining value.",
+  "battery_transfer": 500,
+  "_battery_max_level": "How much times can the battery be upgrades? Keep in mind that with every level you get #battery_capacity more energy, that can be stored.",
+  "battery_max_level": 100,
+  "_battery_max_trace_width": "How much times can the battery trace width be upgrades? Keep in mind that with every increase you get #battery_transfer more energy, that can be transferred per tick.",
+  "battery_max_trace_width": 100
+}
