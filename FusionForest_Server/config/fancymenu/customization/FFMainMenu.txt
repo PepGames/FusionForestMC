@@ -1,0 +1,258 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = MenuAssets/Audio/fusionforestbgmlow (2).wav
+  loop = true
+  action = addaudio
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-centered
+  x = -68
+  action = movebutton
+  y = -15
+}
+
+customization {
+  identifier = %id=400322%
+  width = 120
+  action = resizebutton
+  height = 80
+}
+
+customization {
+  identifier = %id=400322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = MenuAssets\Pics\multplayerbuttonhovered.png
+  backgroundnormal = MenuAssets\Pics\multiplayerbuttonidle.png
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = bottom-right
+  x = -100
+  action = movebutton
+  y = -71
+}
+
+customization {
+  identifier = %id=502382%
+  width = 100
+  action = resizebutton
+  height = 70
+}
+
+customization {
+  identifier = %id=502382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = MenuAssets\Pics\quitgamebuttonhovered.png
+  backgroundnormal = MenuAssets\Pics\quitgamebuttonidle.png
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-centered
+  x = -69
+  action = movebutton
+  y = -37
+}
+
+customization {
+  identifier = %id=400298%
+  width = 59
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttonlabel
+  value = Solo
+}
+
+customization {
+  identifier = %id=400298%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = MenuAssets\Pics\topbuttonhovered.png
+  backgroundnormal = MenuAssets\Pics\topbuttonidle.png
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=604382%
+  orientation = mid-centered
+  x = 12
+  action = movebutton
+  y = 84
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-centered
+  x = -8
+  action = movebutton
+  y = -37
+}
+
+customization {
+  identifier = %id=400382%
+  width = 59
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = MenuAssets\Pics\topbuttonhovered.png
+  backgroundnormal = MenuAssets\Pics\topbuttonidle.png
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = mid-centered
+  x = -49
+  action = movebutton
+  y = 99
+}
+
+customization {
+  identifier = %id=376382%
+  width = 17
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=376382%
+  action = setbuttonlabel
+  value = L
+}
+
+customization {
+  identifier = %id=376382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = MenuAssets\Pics\squarebuttonhovered.png
+  backgroundnormal = MenuAssets\Pics\squarebuttonidle.png
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = mid-centered
+  x = -69
+  action = movebutton
+  y = 67
+}
+
+customization {
+  identifier = %id=400346%
+  width = 120
+  action = resizebutton
+  height = 30
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttonlabel
+  value = Modlist
+}
+
+customization {
+  identifier = %id=400346%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = MenuAssets\Pics\modlistbuttonhovered.png
+  backgroundnormal = MenuAssets\Pics\modlistbuttonidle.png
+}
+
+customization {
+  identifier = %id=376346%
+  orientation = mid-centered
+  x = 11
+  action = movebutton
+  y = 99
+}
+
+customization {
+  identifier = %id=376346%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = MenuAssets\Pics\squarebuttonhovered.png
+  backgroundnormal = MenuAssets\Pics\squarebuttonidle.png
+}
+
+customization {
+  path = MenuAssets/Pics/fusionforestmc.png
+  orientation = top-centered
+  x = -135
+  width = 255
+  action = addtexture
+  actionid = 03c3ca85-f107-4fa4-9239-2422cb46b9f71639345305289
+  y = -72
+  height = 255
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 1
+  action = addtext
+  actionid = 72abb414-fb22-4afe-84f8-ddd42380d8fd1639350734721
+  y = 2
+  scale = 1.0
+  alignment = left
+  value = Modpack Developed by PepGames
+}
+
+customization {
+  identifier = %id=376322%
+  orientation = mid-centered
+  x = -20
+  action = movebutton
+  y = 99
+}
+
+customization {
+  identifier = %id=376322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = MenuAssets\Pics\squarebuttonhovered.png
+  backgroundnormal = MenuAssets\Pics\squarebuttonidle.png
+}
+

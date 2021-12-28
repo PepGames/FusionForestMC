@@ -1,0 +1,58 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  backgroundimage = MenuAssets/Pics/ffloadingscreenbg.png
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  visible = false
+  action = editlogo
+}
+
+customization {
+  visible = false
+  action = editprogressbar
+}
+
+customization {
+  orientation = bottom-centered
+  bartexture = MenuAssets/Pics/ffloadingbar.png
+  x = 0
+  width = 292
+  actionid = 3c8e227b-a85e-4403-a2e6-ae0c9078fdc01639465893933
+  y = -19
+  action = addcustomprogressbar
+  backgroundtexture = MenuAssets/Pics/emptyloadingbar.png
+  height = 25
+  direction = right
+  barcolor = #ffffff
+  backgroundcolor = #5c5c5c80
+}
+
+customization {
+  path = MenuAssets/Pics/mojangtext.png
+  orientation = top-centered
+  x = -1
+  width = 597
+  action = addtexture
+  actionid = 6794e608-8cad-446b-b379-8a3136f40af91639545675713
+  y = 8
+  height = 94
+}
+
+customization {
+  path = MenuAssets/Pics/pepgamestext.png
+  orientation = top-centered
+  x = -4
+  width = 355
+  action = addtexture
+  actionid = 6959884d-628a-4183-9ad4-11bd29c5366a1639545810318
+  y = 104
+  height = 56
+}
+

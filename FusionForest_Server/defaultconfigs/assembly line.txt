@@ -1,0 +1,8 @@
+Comment: 'Usage is joules per tick'
+D:default=8.0 -> CONVEYORBELT_USAGE='8.0'
+Comment: 'Usage is joules per entity movement.'
+D:default=8.0 -> SORTERBELT_USAGE='8.0'
+Comment: 'Usage is per craft.'
+D:default=200.0 -> AUTOCRAFTER_USAGE='200.0'
+Comment: 'Usage is per tick.'
+D:default=20.0 -> BLOCKBREAKER_USAGE='20.0'

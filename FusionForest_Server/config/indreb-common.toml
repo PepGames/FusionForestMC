@@ -1,0 +1,24 @@
+
+[worldgen]
+	enabled = true
+
+	[worldgen.tin]
+		enabled = true
+		#Range: > 0
+		worldgen_tin_placement = 16
+		#Range: > 0
+		worldgen_tin_placement_offset = 0
+		#Range: > 0
+		worldgen_tin_placement_vertical = 112
+		#Range: > 1
+		size = 5
+
+	[worldgen.rubber_tree]
+		enabled = true
+		#Range: 0.0 ~ 1.0
+		chance = 0.05000000074505806
+		#Range: 0.0 ~ 1.0
+		chance_rich = 0.10000000149011612
+		chance_biomes = ["minecraft:forest", "minecraft:birch_forest", "minecraft:flower_forest", "minecraft:wooded_hills"]
+		chance_biomes_rich = ["minecraft:swamp", "minecraft:swamp_hills"]
+
